@@ -1,0 +1,154 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: "Poppins", sans-serif;
+}
+header{
+background-color: #101C2C;
+color: #D97732;
+width: 100%;
+padding: 20px;
+}
+.cabecalho-itens{
+max-width: 1980px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.cabecalho_imagem{
+width: 200px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.titulo_site{
+padding: 50px;
+text-align: center;
+width: 50%;
+font: 30px;
+}
+.sociais{
+display: flex;
+justify-content: flex-end;
+width: 25%;
+padding-right: 30px;
+}
+.banner1{
+display: block;
+width: 100%;
+overflow: hidden;
+}
+.escola.image,
+.banner1 img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0;
+}
+.estudante_titulo{
+padding: 50px;
+text-align: center;
+}
+.estudante-nome{
+text-align: center;
+}
+.estudante-imagem{
+width: 150px;
+}
+.estudante-icone{
+width: 38px;
+padding: 4px 8px;
+}
+.estudante{
+background-image: background-color(#faae43);
+padding: 24px 0;
+}
+
+.estudante.div{
+text-align: center;
+padding: 24px 0;
+}
+.estudantes_todos{
+display: flex;
+justify-content: space-around;
+}
+.escola{
+background-image: linear-gradient(#101C2C,#1D3557);
+color: white;
+display: flex;
+justify-content:center;
+padding: 24px 0;
+text-align:center;
+display:block;
+}
+.escola-titulo{
+padding: 50px;
+text-align: center;
+}
+.logo_rodape{
+height: 80px;
+padding: 12px 0;
+}
+
+.link{
+color: #D97732;
+text-decoration:
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1D3557;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #D97732;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #667385;
+}
+.palmeiras {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.titulo-sobre {
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.sobre-mim {
+    max-width: 1500px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.8;
+    color: #333;
+    padding: 0 20px;
+}
