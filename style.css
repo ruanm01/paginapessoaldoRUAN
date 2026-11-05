@@ -116,7 +116,7 @@ ul li {
 
 ul li a {
   display: block;
-  color: #9996a1;
+  color: #464444;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -151,4 +151,67 @@ ul li a:hover {
     line-height: 1.8;
     color: #333;
     padding: 0 20px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+    color: white;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+#game {
+    width: 600px;
+    height: 400px;
+    background: #333;
+
+    border: 5px solid white;
+
+    position: relative;
+    overflow: hidden;
+}
+
+#player {
+    width: 35px;
+    height: 35px;
+    background: #00ff88;
+
+    position: absolute;
+    left: 50px;
+    top: 50px;
+
+    border: 2px solid black;
+}
+
+#enemy {
+    width: 35px;
+    height: 35px;
+    background: red;
+
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+
+    border: 2px solid black;
+}
+
+p {
+    margin-top: 15px;
 }
