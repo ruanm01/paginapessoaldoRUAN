@@ -8,7 +8,7 @@ font-family: "Poppins", sans-serif;
 }
 header{
 background-color: #404b4b;
-color: #2558ff98;
+color: #20212298;
 width: 100%;
 padding: 20px;
 }
@@ -78,7 +78,7 @@ display: flex;
 justify-content: space-around;
 }
 .escola{
-background-image: linear-gradient(#071d1d,#1D3557);
+background-image: linear-gradient(#404b4b,#20212298);
 color: white;
 display: flex;
 justify-content:center;
@@ -96,7 +96,7 @@ padding: 12px 0;
 }
 
 .link{
-color: #3700ff;
+color: #0000;
 text-decoration:
 }
 
@@ -105,7 +105,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #1D3557;
+  background-color: #0000;
   display: flex;
   justify-content: center;
 }
@@ -116,7 +116,7 @@ ul li {
 
 ul li a {
   display: block;
-  color: #3700ff;
+  color: #beb0f1;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
